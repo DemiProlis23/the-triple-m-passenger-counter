@@ -1,0 +1,120 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.card{
+    background-color: rgb(235, 211, 181);
+    width: 30%;
+    height: 90%;
+    align-self: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+button{
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#inc{
+    background-color: red;
+}
+
+#save{
+    background-color: midnightblue;
+}
+
+#res{
+    background-color: rgb(168, 168, 10);
+}
+
+.img{
+    width: 100%;
+    height: 40%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: black;
+}
+
+#image{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+body{
+    background-color: rgb(9, 48, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 97vh;
+}
+
+@media (max-width:1030px) {
+    body{
+        background-color: blue;
+    }
+    
+    .card{
+        background-color: rgb(35, 146, 91);
+        width: 70%;
+        height: 80%;
+    }
+
+    button{
+        font-size: 35px;
+        width: 400px;
+    }
+
+    .Text, .prev{
+        font-size: x-large;
+    }
+}
+
+@media (max-width:440px) {
+    body{
+        background-color: rgb(130, 10, 134);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card{
+        background-color: rgb(130, 10, 134);
+        width: 100%;
+        height: 80%;
+        align-self: center;
+        border-radius: 0px;
+        position: relative;
+    }
+    
+    button{
+        font-size: 25px;
+        width: 60%;
+    }
+
+    .img{
+        margin-top: 0px;
+        margin-top: -6em;
+    }
+    #image{
+        border-radius: 0px;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+    .Text, .prev{
+        font-size: large;
+    }
+}
